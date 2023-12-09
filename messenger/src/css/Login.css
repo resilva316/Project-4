@@ -1,0 +1,29 @@
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login #go-back {
+    text-decoration: underline;
+    color: black;
+}
+
+.login #login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login #login-form * {
+    margin: 5px;
+}
+
+.login #username, .login #password {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(240, 237, 237);
+    border-radius: 5px;
+}

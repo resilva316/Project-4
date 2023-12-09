@@ -1,0 +1,29 @@
+.register {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register #go-back {
+    text-decoration: underline;
+    color: black;
+}
+
+.register #register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register #register-form * {
+    margin: 5px;
+}
+
+.register #username, .register #password, .register #confirm-password {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(240, 237, 237);
+    border-radius: 5px;
+}

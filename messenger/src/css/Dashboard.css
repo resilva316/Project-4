@@ -1,0 +1,11 @@
+.dashboard {
+    display: flex;
+}
+
+.chat-list {
+    flex: 2;
+}
+
+.chat {
+    flex: 7;
+}

@@ -1,0 +1,22 @@
+.btn {
+    background-color: rgb(192, 205, 255);
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(177, 192, 252)
+}
+
+.btn:focus {
+    background-color: rgb(171, 182, 223);
+}

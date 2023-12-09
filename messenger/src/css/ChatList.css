@@ -1,0 +1,35 @@
+.chat-list .chats {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-list .chat-listing {
+    position: relative;
+
+    padding: 10px;
+    margin: 5px;
+    max-width: 300px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    cursor: pointer;
+}
+
+.chat-list .chat-listing.active {
+    background-color: rgb(240, 237, 237);
+}
+
+.chat-list .chat-listing img {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.chat-list .chat-listing .name {
+    display: inline-block;
+    margin-left: 10px;
+}

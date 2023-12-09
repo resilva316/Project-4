@@ -1,0 +1,13 @@
+.index {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.index .btn {
+    display: block;
+    width: 150px;
+    margin: 5px;
+}
